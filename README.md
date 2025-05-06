@@ -1,1 +1,2 @@
-# `ofh_tools`: Python package for Our Future Health analysis 
+# `ofh_tools`
+# A Python package for Our Future Health analysis 
