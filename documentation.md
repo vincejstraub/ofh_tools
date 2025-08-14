@@ -27,7 +27,7 @@ If `-` is passed as the input, the script uses:
 
 #### 💡 Example
 ```bash
-!python ofh_devkit/process_pheno_list.py - outputs/pheno_list_v1_processed.csv
+!python ofh_tools/process_pheno_list.py - outputs/pheno_list_v1_processed.csv
 ```
 
 ### 2. `extract_raw_field_vals.py`
@@ -48,17 +48,17 @@ Extracts raw values from a DNAnexus dataset based on a phenotype list, saving th
 
 Run with default settings:
 ```bash
-!python ofh_devkit/extract_raw_field_vals.py
+!python ofh_tools/extract_raw_field_vals.py
 ```
 
 Use a different phenotype and cohort:
 
 ```bash
-!python ofh_devkit/extract_raw_field_vals.py --phenotype EXAMPLE_PHENOTYPE_1 --cohort GENOTYPED --output outputs/genotyped.csv
+!python ofh_tools/extract_raw_field_vals.py --phenotype EXAMPLE_PHENOTYPE_1 --cohort GENOTYPED --output outputs/genotyped.csv
 ```
 Only generate SQL and save to file:
 ```bash
-!python ofh_devkit/extract_raw_field_vals.py --sql-only --output outputs/query.sql
+!python ofh_tools/extract_raw_field_vals.py --sql-only --output outputs/query.sql
 ```
 
 ## 🧠 Notes
